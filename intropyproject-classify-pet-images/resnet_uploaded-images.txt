@@ -1,0 +1,27 @@
+
+
+##### Results Summary for resnet - CNN Model Architecture #####
+
+
+Counts:
+-------
+
+N Images            :   4
+N Dog Images        :   2
+N Not A Dog Images  :   2
+
+Percentages:
+------------
+
+pct_correct_dogs : 100.0%
+pct_correct_notdogs : 100.0%
+pct_correct_breed : 0.0%
+pct_match : 0.0%
+
+All Dogs are classified as Dogs
+
+Incorrect Breed Classifications:
+Pet Name: dog                            Classified as: rhodesian ridgeback                                                             
+Pet Name: dog                            Classified as: rhodesian ridgeback                                                             
+
+** Total Elapsed Runtime: 0:0:5

@@ -1,0 +1,27 @@
+
+
+##### Results Summary for vgg - CNN Model Architecture #####
+
+
+Counts:
+-------
+
+N Images            :  40
+N Dog Images        :  30
+N Not A Dog Images  :  10
+
+Percentages:
+------------
+
+pct_correct_dogs : 100.0%
+pct_correct_notdogs : 100.0%
+pct_correct_breed : 93.33333333333333%
+pct_match : 87.5%
+
+All Dogs are classified as Dogs
+
+Incorrect Breed Classifications:
+Pet Name: beagle                         Classified as: walker hound, walker foxhound                                                   
+Pet Name: great pyrenees                 Classified as: kuvasz                                                                          
+
+** Total Elapsed Runtime: 0:0:42

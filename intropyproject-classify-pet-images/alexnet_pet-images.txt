@@ -1,0 +1,31 @@
+
+
+##### Results Summary for alexnet - CNN Model Architecture #####
+
+
+Counts:
+-------
+
+N Images            :  40
+N Dog Images        :  30
+N Not A Dog Images  :  10
+
+Percentages:
+------------
+
+pct_correct_dogs : 100.0%
+pct_correct_notdogs : 100.0%
+pct_correct_breed : 80.0%
+pct_match : 75.0%
+
+All Dogs are classified as Dogs
+
+Incorrect Breed Classifications:
+Pet Name: beagle                         Classified as: english foxhound                                                                
+Pet Name: beagle                         Classified as: walker hound, walker foxhound                                                   
+Pet Name: boston terrier                 Classified as: basenji                                                                         
+Pet Name: golden retriever               Classified as: tibetan mastiff                                                                 
+Pet Name: golden retriever               Classified as: afghan hound, afghan                                                            
+Pet Name: great pyrenees                 Classified as: kuvasz                                                                          
+
+** Total Elapsed Runtime: 0:0:4
