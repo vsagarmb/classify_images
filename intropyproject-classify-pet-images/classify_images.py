@@ -66,6 +66,6 @@ def classify_images(images_dir, results_dic, model):
            None - results_dic is mutable data type so no return needed.         
     """
     for key, value in results_dic.items():
-        image_classification = classifier(images_dir+key, model).lower()
+        image_classification = classifier(images_dir+key, model).lower().lower().strip()
         results_dic[key].append(image_classification)
         results_dic[key].append(1 if value[0] in image_classification else 0)

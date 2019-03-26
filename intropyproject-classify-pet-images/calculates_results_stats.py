@@ -108,6 +108,16 @@ def calculates_results_stats(results_dic):
         if((value[3] == 1) and (value[2] == 1)):
             n_correct_breed += 1
 
+    # Clean values to avoid division by 0
+    if n_dogs_img == 0:
+        n_dogs_img = 0.000001
+
+    if n_notdogs_img == 0:
+        n_notdogs_img = 0.000001
+
+    if n_images == 0:
+        n_images = 0.000001
+
     # Percentage of Correctly Classified Dog Images
     pct_correct_dogs = n_correct_dogs / n_dogs_img * 100
 

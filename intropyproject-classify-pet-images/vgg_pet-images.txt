@@ -6,9 +6,9 @@
 Counts:
 -------
 
-N Images            :  40
-N Dog Images        :  30
-N Not A Dog Images  :  10
+N Images            : 40.000000
+N Dog Images        : 30.000000
+N Not A Dog Images  : 10.000000
 
 Percentages:
 ------------
@@ -24,4 +24,4 @@ Incorrect Breed Classifications:
 Pet Name: beagle                         Classified as: walker hound, walker foxhound                                                   
 Pet Name: great pyrenees                 Classified as: kuvasz                                                                          
 
-** Total Elapsed Runtime: 0:0:42
+** Total Elapsed Runtime: 0:0:36

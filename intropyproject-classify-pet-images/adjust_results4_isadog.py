@@ -72,8 +72,7 @@ def adjust_results4_isadog(results_dic, dogfile):
         for line in f:
             dogname_dict[line.lower().strip()] = 1
 
-    for key, value in results_dic.items():
+    for _, value in results_dic.items():
         value.append(1 if dogname_dict.get(value[0]) else 0)
-        value.append(1 if dogname_dict.get(value[1]) else 0)
-        results_dic[key] = value
+        value.append(1 if dogname_dict.get(value[1]) else 0)        
        #print("Filename: {0: <37}  Label Name: {1: <30} Classified As: {2: <70} Match: {3: <3} Label is a dog: {4: <3} Classified as a dog: {5: <3}".format(key, value[0],  value[1],  value[2],  value[3],  value[4]))

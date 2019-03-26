@@ -68,9 +68,9 @@ def print_results(results_dic, results_stats_dic, model,
 
     print("\nCounts:")
     print("-------\n")
-    print("{:20}: {:3d}".format('N Images', results_stats_dic['n_images']))
-    print("{:20}: {:3d}".format('N Dog Images', results_stats_dic['n_dogs_img']))
-    print("{:20}: {:3d}".format('N Not A Dog Images', results_stats_dic['n_notdogs_img']))
+    print("{:20}: {:3f}".format('N Images', results_stats_dic['n_images']))
+    print("{:20}: {:3f}".format('N Dog Images', results_stats_dic['n_dogs_img']))
+    print("{:20}: {:3f}".format('N Not A Dog Images', results_stats_dic['n_notdogs_img']))
 
     print("\nPercentages:")
     print("------------\n")

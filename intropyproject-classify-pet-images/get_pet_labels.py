@@ -45,9 +45,24 @@ def get_pet_labels(image_dir):
 
     filename_list = listdir(image_dir)
 
-    dogname_list = [[" ".join(f.lower().split("_")[:-1])] for f in filename_list]
+    dogname_dict = dict()
 
-    return dict(zip(filename_list, dogname_list))
+    for file in filename_list:
+        # Ignore dot/hidden files
+        if file.startswith("."):
+            continue
+
+        fileName = ""
+
+        # remove the .jpg extension and split the file name
+        words = file.split('.')[0].split('_')
+        for word in words:
+            if word.isalpha():
+                fileName += word + " "
+
+        dogname_dict[file] = [fileName.lower().strip()]
+
+    return dogname_dict
 
 
 if __name__ == "__main__":
